@@ -39,17 +39,15 @@ This project involves developing a cross-platform image recognition and processi
 ```
 /ImageRecognitionSystem
     /CSharpUI
-        - MainUI.cs
-        - Settings.cs
-        - ImageUploader.cs
+        - MainWindow.xaml
+        - MainWindow.xaml.cs
     /CppImageProcessing
         - ImageProcessor.cpp
         - EdgeDetection.cpp
         - ObjectDetection.cpp
         - ImageEnhancer.cpp
-        - CppWrapper.h (for linking C++ and C#)
     /Assets
-        - SampleImages/
+        - haarcascade_frontalface_default.xml (For object detection, download it from OpenCV GitHub)
     /Docs
         - README.md
         - SetupInstructions.md
